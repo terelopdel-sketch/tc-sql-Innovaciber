@@ -81,6 +81,29 @@ target/
 # IPython
 profile_default/
 ipython_config.py
+# Entorno virtual
+venv/
+.venv/
+env/
+
+# Credenciales — NUNCA subir al repo
+.env
+credentials/
+*.json
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+
+# IDEs
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
 
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is
